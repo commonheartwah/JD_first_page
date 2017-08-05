@@ -1,0 +1,49 @@
+/* css µÄ³õÊ¼»¯ */
+html,body,ul,li,dl,dt,dd,p,h1,h2,h3,h5,form,img {
+     margin: 0;
+     padding: 0;
+}
+h1,h2,h3,h5 {
+    font-weight: 400;
+}
+img {
+    border:0
+}
+ul {
+    list-style:none;
+}
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+    outline: none;
+}
+body {
+    background-color:#f6f6f6;
+    font:normal normal 12px ¡°Î¢ÈíÑÅºÚ¡±;
+    color:#666;
+}
+.clearfix:after {
+    content: '';
+    height:0;
+    line-height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both
+}
+.clearfix {
+    zoom: 1;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+i {
+    font-style: normal;
+}
